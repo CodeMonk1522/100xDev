@@ -1,0 +1,120 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    padding: 30px 100px; /* Adjusted padding */
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Ensure vertical alignment */
+    background-color: #fff; /* Light background color */
+    box-shadow: 2px 1px 2px #eee; /* Subtle shadow */
+    box-sizing: border-box; /* Include padding in width/height calculation */
+    width: 100%; /* Ensure navbar spans the full width */
+    position: fixed; /* Fixes the navbar at the top */
+    top: 0; /* Align at the top */
+    z-index: 1000; /* Ensure it stays above other elements */
+}
+.navbar a {
+    text-decoration: none;
+    color: #424242;
+}
+
+.rightNav {
+    display: flex;
+    gap: 30px; /* or whatever spacing you prefer */
+}
+
+
+
+.landingImg {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    margin: 0; 
+    padding-top: 80px;
+}
+
+.headingHolder {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+
+.headingHolder h1 {
+    margin: 0; 
+    padding-top: 30px;
+    color: #424242;
+
+}
+
+
+.headingHolder h2 {
+    margin: 0; 
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: #424242;
+
+}
+
+
+
+.signUpButtonHolder{
+   display: flex;
+   justify-content: center;
+}
+
+.signupBtn{
+    
+    border-style: none;
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #387ed1;
+    color: white;
+    cursor: pointer;
+}
+
+
+.headingHolder2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    margin-top: 150px;
+}
+
+.headingHolder2 h1 {
+    margin: 0; 
+    padding-top: 30px;
+    color: #424242;
+
+}
+
+
+.headingHolder2 h2 {
+    margin: 0; 
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: #424242;
+
+}
+
+.CalculatorDiv{
+    display: flex;
+    justify-content: space-between;
+
+    
+
+}
+
+.portfolioInput{
+    background-color: aqua;
+}
+
+
+.portfolioOutput{
+    background-color: aquamarine;
+}
