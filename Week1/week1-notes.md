@@ -37,3 +37,33 @@ context switching. Single threaded nature means code is restricted to single cor
 Ik about this I am well versed with JS syntax.
 
 # Important - Callbacks - The function takes input as another function this is called callback
+
+
+#IMPORTANT - Classes
+class Animal {
+
+    constructor(name, legCount, speakSound) {
+        this.name = name;
+        this.legCount = legCount;
+        this.speakSound = speakSound; // Rename to avoid conflict with method name
+    }
+
+    static hello() {
+        console.log('Animal says hello');
+    }
+
+    speak() {
+        console.log('I speak ' + this.speakSound); // Correct string concatenation
+    }
+}
+
+
+let dog = new Animal('Doggie', 4, 'bhow bow')
+let cat = new Animal ('Cat', 4, 'mew mew')
+cat.speak(); //calling function on object This will log mew mew
+
+# Sync vs Async
+
+Sync processes are the tasks which are done in sequence one after the another
+
+Async processess are done in context switching fashion and tasks are also deligated to another functions
